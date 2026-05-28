@@ -160,14 +160,14 @@ export default function Home() {
                       className="border-0 focus-visible:ring-0 shadow-none px-0 h-10 placeholder:text-slate-400"
                     />
                   </div>
-                  <div className="flex-1 flex items-center gap-2 px-3 border-b md:border-b-0 md:border-r border-slate-100 pb-2 md:pb-0">
+                  <div className="flex-1 flex items-center gap-2 px-3 border-b md:border-b-0 md:border-r border-slate-100 pb-2 md:pb-0 min-w-[150px]">
                     <MapPin className="w-5 h-5 text-nexytal-blue shrink-0" />
                     <select 
                       value={searchDomain} 
                       onChange={(e) => setSearchDomain(e.target.value)}
-                      className="w-full border-0 bg-transparent text-sm focus:outline-none h-10 text-nexytal-text"
+                      className="w-full border-0 bg-transparent text-xs sm:text-sm focus:outline-none h-10 text-nexytal-text py-1"
                     >
-                      <option value="">Tous les domaines IT</option>
+                      <option value="">Tous les domaines</option>
                       <option value="cyber">Cybersécurité</option>
                       <option value="devops">DevOps & Cloud</option>
                       <option value="data">IA & Data Science</option>

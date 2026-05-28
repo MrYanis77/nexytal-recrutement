@@ -49,10 +49,10 @@ export default function Header() {
       }`}>
         <div className="container flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <span className="font-display font-extrabold text-xl md:text-2xl tracking-tight text-nexytal-navy flex items-center">
-              NEXYTAL<span className="text-nexytal-blue ml-1 group-hover:translate-x-0.5 transition-transform">RECRUTEMENT</span>
-              <span className="bg-nexytal-blue text-white text-[10px] px-1.5 py-0.5 rounded ml-1.5 font-sans font-bold tracking-normal">IT</span>
+          <Link href="/" className="flex items-center gap-2 group shrink-0">
+            <span className="font-display font-extrabold text-base sm:text-lg md:text-xl tracking-tight text-nexytal-navy flex items-center flex-wrap sm:flex-nowrap">
+              NEXYTAL<span className="text-nexytal-blue sm:ml-1 group-hover:translate-x-0.5 transition-transform">RECRUTEMENT</span>
+              <span className="bg-nexytal-blue text-white text-[9px] px-1 py-0.5 rounded ml-1.5 font-sans font-bold tracking-normal hidden sm:inline-block">IT</span>
             </span>
           </Link>
 
