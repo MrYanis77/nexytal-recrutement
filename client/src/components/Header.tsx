@@ -57,7 +57,7 @@ export default function Header() {
           </Link>
 
           {/* Navigation Desktop */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
             {/* Nos Expertises avec Méga-menu */}
             <div 
               className="relative"
